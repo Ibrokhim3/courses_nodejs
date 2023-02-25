@@ -1,0 +1,52 @@
+[
+  
+  {
+    "id": "4c75ba4d-ffac-4cd5-af64-d73a39a04e10",
+    "title": "Shashlik course",
+    "price": "15.000$",
+    "author": "eskimos",
+    "img_url": "https://res.cloudinary.com/djmmcic9h/image/upload/v1676725875/img_server/zk0kh4pubhdknqfmdtmo.png"
+  },
+  {
+    "id": "ff977065-ca93-4573-a639-23033f79300c",
+    "title": "Shashlik course",
+    "price": "15.000$",
+    "author": "eskimos",
+    "img_url": "https://res.cloudinary.com/djmmcic9h/image/upload/v1676725875/img_server/zk0kh4pubhdknqfmdtmo.png"
+  },
+  {
+    "id": "9bc69ae0-aa4f-4152-8f8f-e70fea1bd9b7",
+    "title": "Shashlik course",
+    "price": "15.000$",
+    "author": "eskimos",
+    "img_url": "https://res.cloudinary.com/djmmcic9h/image/upload/v1676725875/img_server/zk0kh4pubhdknqfmdtmo.png"
+  },
+  {
+    "id": "4203b4f1-8988-4ee8-9fcd-2796ac26fc86",
+    "title": "Shashlik course",
+    "price": "15.000$",
+    "author": "eskimos",
+    "img_url": "https://res.cloudinary.com/djmmcic9h/image/upload/v1676725875/img_server/zk0kh4pubhdknqfmdtmo.png"
+  },
+  {
+    "id": "05ebd07d-fefb-414b-be18-5baa1121d291",
+    "title": "Shashlik course",
+    "price": "15.000$",
+    "author": "eskimos",
+    "img_url": "https://res.cloudinary.com/djmmcic9h/image/upload/v1676725875/img_server/zk0kh4pubhdknqfmdtmo.png"
+  },
+  {
+    "id": "cb5c11c5-c435-44c4-8dd8-7c860221835b",
+    "title": "nodejs",
+    "price": "50000",
+    "author": "Salom Salomov",
+    "img_url": "https://res.cloudinary.com/dephdgqpo/image/upload/v1677254241/course_img%20/hxpuk9jvzoxd1vxm7i7t.jpg"
+  },
+  {
+    "id": "15a30d57-561c-4ea5-80a9-7c6a9066cd48",
+    "title": "Alibaba",
+    "price": "5050",
+    "author": "Vite ",
+    "img_url": ""
+  }
+]
