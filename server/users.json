@@ -1,44 +1,16 @@
 [
     {
-        "id": "e73946fb-9433-4d78-a690-dc5c4d5a67a0",
-        "email": "mayinpars@gamil.com",
-        "username": "Sher",
-        "gender": "male",
-        "password": "YXNkYTAwMDE4NjU="
-    },
-    {
-        "id": "88f6d1fb-6bd3-485f-85c9-b41e2d01cf9e",
+        "id": "19fe2996-c3c7-4a72-b012-e03da6258a48",
         "email": "ibrohim@gmail.com",
         "username": "ibrohim",
         "gender": "male",
-        "password": "aWJyb2hpbQ=="
+        "password": "MTIz"
     },
     {
-        "id": "a963f55e-b2fb-456d-8dd6-eae1189c8a41",
+        "id": "8f0c502b-f0e9-44ef-9520-d399ef3c3109",
         "email": "nurulloh23@gmail.com",
-        "username": "sss",
+        "username": "nurulloh",
         "gender": "male",
-        "password": "MzMz"
-    },
-    {
-        "id": "66bc04ed-9663-42e1-bd59-90cbaa853a5a",
-        "email": "sayfulloh123@gmail.com",
-        "username": "ID1409",
-        "gender": "male",
-        "password": "MTIz"
-    },
-    {
-        "id": "7b88cc33-1d29-4aa9-a74b-abc0e4a2118a",
-        "email": "ibrohims@gmail.com",
-        "username": "ibrohims",
-        "gender": "male",
-        "password": "MTIz"
-    },
-    {
-        "id": "e07a138d-fc05-482c-add1-583af1211dca",
-        "email": "ibrohimss@gmail.com",
-        "username": "ibrohimss",
-        "gender": "male",
-        "password": "c3Nz"
+        "password": "MzIx"
     }
 ]

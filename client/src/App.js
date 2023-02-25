@@ -18,7 +18,11 @@ function App() {
           <Navbar />
           <Routes>
             <Route exact path="/login" element={<Login />} />
-            <Route exact path="/courses" element={<Courses />} />
+            <Route
+              exact
+              path="/courses"
+              element={localStorage.getItem("token") && <Courses />}
+            />
             <Route exact path="/register" element={<Register />} />
           </Routes>
         </div>

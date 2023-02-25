@@ -107,7 +107,8 @@ let app = http.createServer((req, res) => {
   if (req.method === "POST") {
     if (req.url === "/create_course") {
       req.on("data", (chunk) => {
-        let data = JSON.parse(chunk);
+        let { title, price, author, img_url, token } = JSON.parse(chunk);
+        let userId = atob(token);
 
         let courses = JSON.parse(fs.readFileSync("courses.json", "utf-8"));
 
@@ -115,7 +116,11 @@ let app = http.createServer((req, res) => {
           ...courses,
           {
             id: v4(),
-            ...data,
+            title,
+            price,
+            author,
+            img_url,
+            user_id: userId,
           },
         ];
 
@@ -187,7 +192,7 @@ let app = http.createServer((req, res) => {
               })
             );
           }
-          let hashUser = btoa(foundedUser);
+          let hashUser = btoa(foundedUser.id);
 
           res.writeHead(200, options);
           return res.end(

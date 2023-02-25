@@ -27,7 +27,6 @@ export default function Courses() {
       }
     );
     const data2 = await res.json();
-    console.log(data2);
     setImg_url(data2.secure_url);
   };
 
@@ -42,6 +41,7 @@ export default function Courses() {
         price: price.value,
         author: author.value,
         img_url,
+        token: localStorage.getItem("token"),
       }),
     })
       .then((res) => res.json())
